@@ -40,7 +40,7 @@ classdef Camera
             vec_hat(2,3) = -mat_3xN(1, i);
             vec_hat(3,1) = -mat_3xN(2, i);
             vec_hat(3,2) = mat_3xN(2, i);
-            cp_cell{1,i} = vec_hat;
+
             end
         end
     
